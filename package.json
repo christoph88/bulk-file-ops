@@ -4,7 +4,7 @@
   "description": "",
   "main": "./lib/index.js",
   "bin": {
-    "dosomethingawesome": "./bin/demo-global.js"
+    "bulk-file-rename": "./bin/global.js"
   },
   "preferGlobal": true,
   "scripts": {
