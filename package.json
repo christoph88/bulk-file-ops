@@ -4,7 +4,7 @@
   "description": "",
   "main": "./lib/index.js",
   "bin": {
-    "bulk-file-rename": "./bin/global.js"
+    "bulk-file-ops": "./bin/global.js"
   },
   "preferGlobal": true,
   "scripts": {
