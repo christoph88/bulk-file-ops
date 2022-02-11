@@ -5,11 +5,11 @@ const args = process.argv.splice(process.execArgv.length + 2);
 
 // Retrieve the first argument
 const path = args[0];
-const files = args[1];
-const replaceThis = args[2];
-const withThat = args[3];
+const filter = args[1];
+const replace = args[2];
+const value = args[3];
 
 const myLibrary = require('../lib/index.js');
 
 // Displays the text in the console
-myLibrary.rename(path, files, replaceThis, withThat);
+myLibrary.rename(path, filter, replace, value);
